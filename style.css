@@ -1,0 +1,75 @@
+td, th {
+    border: 2px solid black;
+    padding: 20px;
+}
+table { 
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: auto;
+}
+th:nth-child(1) {
+    background-color: #5101EB;
+}
+th:nth-child(2) {
+    background-color: #EB02E9;
+}
+th:nth-child(3) {
+    background-color: #A002EB;
+}
+th:nth-child(4) {
+    background-color: #0802EB;
+}
+th:nth-child(5) {
+    background-color: #EB1367;
+}
+td:nth-child() {
+    background-color: #EB1200;
+}
+th {
+    color: white;
+}
+caption {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.kiber {
+    background-color: #eb140099;
+}
+.fiz {
+    background-color: #f06800a4;
+}
+.history {
+    background-color: #eb3c029b;
+}
+.math {
+    background-color: #eb125aa1;
+}
+.info {
+    background-color: #eb95139c;
+}
+.tex {
+    background-color: #f09801a5;
+}
+.eng {
+    background-color: #ebb513b6;
+}
+.pysto {
+    background-color: rgba(128, 128, 128, 0.508);
+}
+.days:hover {
+    opacity: 0.7;
+    transition-duration: 0.8s;
+}
+.footer {
+    text-align: center;
+}
+a:hover {
+    text-decoration-line: none;
+}
+a:visited {
+    color:rgb(140, 0, 255);
+    text-decoration-line:none;
+}
+a:link {
+    cursor: pointer;
+}
